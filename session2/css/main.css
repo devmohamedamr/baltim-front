@@ -1,0 +1,165 @@
+.one{
+    color:crimson
+}
+
+.two{
+    color:blue
+}
+
+
+/* .box{
+    background: gold;
+    width: 100px;
+    height: 100px;
+}
+
+.boxgreen{
+    background: green;
+    width: 100px;
+    height: 100px;
+} */
+
+/* 
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.gold{
+    background: gold;
+}
+
+.green {
+    background: green;
+}
+
+
+.blue{
+    background: blue;
+} */
+/* 
+.container{
+    width: 100%;
+    height: 300px;
+    background: gray;
+}
+
+.item{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    background: green;
+} */
+
+/* 
+.container{
+    width: 100%;
+    height: 300px;
+    background: gray;
+    height: 1000px;
+}
+
+.item{
+    text-align: center;
+    width: 33%;
+    height: 20%;
+    display: inline-block;
+    background: white;
+} */
+
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+} */
+
+/* .box{
+    width: 100px;
+    height: 100px;
+    background: gold;
+    margin: 10px;
+} */
+
+.container{
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    /* background: gold; */
+}
+
+
+.box-img{
+    width: 40%;
+    height: 100%;
+
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.box-content{
+    width: 40%;
+    height: 100%;
+    /* background: blanchedalmond; */
+    display: inline-block;
+    background-color: aqua;
+}
+
+
+/* .box{
+    width: 100px;
+    height: 100px;
+} */
+
+
+/* 
+.green{
+    background: green;
+    float: left;
+}
+
+.red{
+    background: red;
+    float: left;
+} */
+
+
+.container{
+    width: 100%;
+    height: 400px;
+    /* background: gold; */
+    /* padding-left: 1%; */
+}
+
+/* .person{
+    width: 22%;
+    height: 50%;
+    float: left;
+    margin-left: 2%;
+} */
+
+/* .person img{
+    width: 100%;
+    height: 100%;
+} */
+
+.boxwithoutfloat{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background: rebeccapurple;
+    float: right;
+}
+
+.clr{
+    clear: both;
+}
