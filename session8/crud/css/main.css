@@ -1,0 +1,39 @@
+.container{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: rgb(236, 236, 236);
+}
+
+.form {
+    width: 60%;
+    height: 30%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form input {
+    width: 80%;
+    height: 25%;
+}
+.form button {
+    outline: none;
+    cursor:pointer;
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+#update{
+    display: none;
+}
+
+
+
+.res{
+    width: 60%;
+    height: 70%;
+}

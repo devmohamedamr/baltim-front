@@ -1,0 +1,49 @@
+body{
+    height:2000px
+}
+
+
+
+.click{
+    transition: 1s all;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.clickhide{
+    transition: 1s all;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.nav{
+    width: 70%;
+    height: 100px;
+    background: gold;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    transition: 1s all;
+}
+
+.navexpand{
+    width: 100%;
+    height: 100px;
+    background: blue;
+    position: fixed;
+    top: 0;
+    transition: 1s all;
+}
