@@ -1,0 +1,34 @@
+body{
+    height:2000px
+}
+
+.container {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.container img {
+    width: 100%;
+}
+
+
+.box { 
+    width: 80%;
+    /* height: 500px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.box a {
+    padding: 10px; 
+    cursor: pointer;
+}
