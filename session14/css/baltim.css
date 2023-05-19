@@ -1,0 +1,56 @@
+/* width and height */
+:root {
+    --size:50
+}
+.w-0 {
+    width: calc(var(--size) * 2px);
+}
+
+.w-1 {
+    width: calc(var(--size) * 3px);
+}
+
+.w-2 {
+    width: calc(var(--size) * 4px);
+}
+
+
+.h-0 {
+    height: calc(var(--size) * 2px);
+}
+
+.h-1 {
+    height:calc(var(--size) * 3px);
+}
+
+.h-2 {
+    height:calc(var(--size) * 4px);
+}
+
+
+.bg-red{
+    background: red;
+}
+
+.bg-blue{
+    background: blue;
+}
+
+.bg-green {
+    background: green;
+}
+
+
+.float-start {
+    float: left;
+}
+
+.float-end {
+    float: right;
+}
+
+
+
+.m-0 {
+    margin: 0;
+}
