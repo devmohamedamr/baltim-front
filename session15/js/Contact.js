@@ -4,13 +4,13 @@ template.innerHTML = `
         .box{
             width: 100%;
             height: 600px;
-            background: red;
+            background: blue;
         }
     </style>
     <div class="box"></div>
 `
 
-export default class Home extends HTMLElement{
+export default class Contact extends HTMLElement{
     constructor(){
         super()
         this.attachShadow({mode:"open"})
@@ -19,4 +19,4 @@ export default class Home extends HTMLElement{
 }
 
 
-customElements.define("home-component",Home)
+customElements.define("contact-component",Contact)

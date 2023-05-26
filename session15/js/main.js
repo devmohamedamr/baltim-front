@@ -41,3 +41,19 @@ function savePost(data){
 
 
 import Home from './Home.js'
+import About from './About.js'
+import Contact from './Contact.js'
+
+let route = document.querySelector("BrowserRoute")
+document.getElementById("routers").onclick = function(e){
+    if(e.target.getAttribute("path") == "home"){
+        route.innerHTML = "<home-component></home-component>"
+    }else if (e.target.getAttribute("path") == "about"){
+        route.innerHTML = "<about-component></about-component>"
+
+    }else if (e.target.getAttribute("path") == "contact"){
+        route.innerHTML = "<contact-component></contact-component>"
+
+    }
+    
+}
